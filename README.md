@@ -1,48 +1,7 @@
-<<<<<<< HEAD
 # AMPD LiveStock Management System v9.8
 
 ## Project Overview
 A comprehensive livestock management system built with ASP.NET Core 8.0, designed to help farmers and ranchers manage their livestock operations efficiently.
-
-## Features
-- Animal tracking and management
-- Health records management
-- Breeding records tracking
-- Financial transaction monitoring
-- Dashboard with key metrics
-
-## Technical Stack
-- ASP.NET Core 8.0
-- Entity Framework Core
-- SQL Server
-- Docker support
-- Bootstrap 5
-
-## Project Structure
-```bash
-AMPD.LiveStock/
-├── Controllers/               # MVC Controllers
-├── Models/                    # Domain Models
-├── Data/                      # Database Context and Configurations
-├── Views/                    # MVC Views
-├── wwwroot/                 # Static files
-├── Services/                # Business logic layer
-└── Properties/              # Project properties
-```
-
-## Getting Started
-1. Clone the repository
-2. Install .NET 8.0 SDK
-3. Run `dotnet restore`
-4. Run `dotnet run`
-
-## Docker Support
-=======
-# AMPD.LiveStockManagementV9.8
-A comprehensive livestock management system built with .NET 8.0
-# AMPD Live Stock Management System
-
-A comprehensive livestock management system built with .NET 8.0, featuring modules for animal management, breeding, health tracking, commercial operations, financial management, and security.
 
 ## System Features
 
@@ -83,52 +42,34 @@ A comprehensive livestock management system built with .NET 8.0, featuring modul
 - Excel report generation
 - Financial projections
 
-### 6. Security Module
-- Incident tracking and reporting
-- Security event logging
-- Access control management
-- Security metrics
+## Technical Stack
+- ASP.NET Core 8.0
+- Entity Framework Core
+- SQL Server
+- Docker support
+- Bootstrap 5
 
-## System Requirements
-
-- Docker Desktop
-- Visual Studio 2022
-- .NET 8.0 SDK
-
-## Running the Application
-
-### Option 1: Using Docker (Recommended)
-
+## Getting Started
 1. Clone the repository
-2. Open terminal in the project root directory
-3. Run:
->>>>>>> 287ef0a95541650c508e006e9a95db4e0d08fd8d
+2. Install .NET 8.0 SDK
+3. Run `dotnet restore`
+4. Run `dotnet run`
+
+## Docker Support
 ```bash
 docker-compose up --build
 ```
 
-<<<<<<< HEAD
-## License
-MIT License
-=======
-The application will be available at:
-- Web Interface: http://localhost:8080
-
-### Option 2: Using Visual Studio 2022
-
-1. Open `AMPD Live Stock Management.sln`
-2. Set `AMPD Live Stock Management` as startup project
-3. Press F5 to run
-
 ## Project Structure
-
-```
-AMPD Live Stock Management/
-├── Controllers/           # Application controllers
-├── Models/               # Data models and mock data
-├── Views/                # MVC views for each module
-├── wwwroot/             # Static files (CSS, JS, images)
-└── Properties/          # Application properties
+```bash
+AMPD.LiveStock/
+├── Controllers/               # MVC Controllers
+├── Models/                    # Domain Models
+├── Data/                      # Database Context and Configurations
+├── Views/                    # MVC Views
+├── wwwroot/                 # Static files
+├── Services/                # Business logic layer
+└── Properties/              # Project properties
 ```
 
 ## Development Mode
@@ -209,4 +150,3 @@ For technical support or questions:
    - Built-in authentication and authorization
    - Role-based access control
    - Regular security updates
->>>>>>> 287ef0a95541650c508e006e9a95db4e0d08fd8d
